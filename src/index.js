@@ -4,6 +4,10 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 class App extends React.Component {
+  constructor(props) {
+    super();
+    console.log(props);
+  }
   render() {
     return <h1>app</h1>;
   }
